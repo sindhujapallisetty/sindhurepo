@@ -1,0 +1,96 @@
+import java.util.Scanner;
+
+public class HelloWorld {
+
+    public static void main(String[] args) {
+
+        // Creates a reader instance which takes
+        // input from standard input - keyboard
+        Scanner reader = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+
+        // nextInt() reads the next integer from the keyboard
+        int number = reader.nextInt();
+
+        // println() prints the following line to the output screen
+        System.out.println("You entered: " + number);
+    }
+}
+Output
+
+Enter a number: 10
+You entered: 10
+In this program, an object of Scanner class, reader is created to take inputs from standard input, which is keyboard.
+
+Then, Enter a number prompt is printed to give the user a visual cue as to what they should do next.
+
+reader.nextInt() then reads all entered integers from the keyboard unless it encounters a new line character \n (Enter). The entered integers are then saved to the integer variable number.
+
+If you enter any character which is not an integer, the compiler will throw an InputMismatchException.
+
+Finally, number is printed onto the standard output (System.out) - computer screen using the function println().
+
+Share on:
+Did you find this article helpful?
+
+Related Examples
+Java Example
+
+Check Whether a Number is Even or Odd
+
+Java Example
+
+Read the Content of a File Line by Line
+
+Java Example
+
+Calculate simple interest and compound interest
+
+Java Example
+
+Make a Simple Calculator Using switch...case
+
+
+Join our newsletter for the latest updates.
+Enter Email Address
+Join
+
+
+Tutorials
+Python 3 Tutorial
+JavaScript Tutorial
+SQL Tutorial
+HTML Tutorial
+R Tutorial
+C Tutorial
+C++ Tutorial
+Java Tutorial
+Rust Tutorial
+Go Tutorial
+Kotlin Tutorial
+Swift Tutorial
+C# Tutorial
+DSA Tutorial
+Examples
+Python Examples
+JavaScript Examples
+C Examples
+Java Examples
+Kotlin Examples
+C++ Examples
+Company
+About
+Advertising
+Privacy Policy
+Terms & Conditions
+Contact
+Blog
+Careers
+Youtube
+Apps
+Learn Python
+Learn C Programming
+Learn Java
+© Parewa Labs Pvt. Ltd. All rights reserved.
+
+   
